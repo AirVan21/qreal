@@ -26,6 +26,8 @@ public:
 	/// Sends a command to run previously uploaded file in a robot.
 	bool runProgram(QString const &programName);
 
+	bool runRuCProgram(QString const &programName);
+
 	/// Sends a script to be executed directly, without a need for a file.
 	/// @param asScript - if true, the state of a robot will be reset before command evalutation.
 	bool runDirectCommand(QString const &directCommand, bool asScript = false);

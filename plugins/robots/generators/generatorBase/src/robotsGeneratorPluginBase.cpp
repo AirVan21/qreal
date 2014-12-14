@@ -59,7 +59,8 @@ QFileInfo RobotsGeneratorPluginBase::srcPath()
 
 	if (!pathsList.isEmpty()) {
 		for (QFileInfo const &path : pathsList) {
-			if (mTextManager->isDefaultPath(path.absoluteFilePath())
+            qDebug() << path.absoluteFilePath();
+            if (mTextManager->isDefaultPath(path.absoluteFilePath())
 				&& !mTextManager->isModifiedEver(path.absoluteFilePath())
 				&& !mTextManager->generatorName(path.absoluteFilePath()).compare(generatorName()))
 			{

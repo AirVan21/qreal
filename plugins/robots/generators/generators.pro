@@ -4,13 +4,16 @@ SUBDIRS = \
 	generatorBase \
 	trikGeneratorBase \
 	trikQtsGenerator \
-	trikFSharpGenerator \
+        trikRuCGenerator \
+        trikFSharpGenerator \
 	trikRuntimeUploaderPlugin \
 	nxtGeneratorBase \
 	nxtOsekCGenerator \
 	nxtRussianCGenerator \
 
+
 trikGeneratorBase.file = $$PWD/trik/trikGeneratorBase/trikGeneratorBase.pro
+trikRuCGenerator.file = $$PWD/trik/trikRuCGenerator/trikRuCGenerator.pro
 trikQtsGenerator.file = $$PWD/trik/trikQtsGenerator/trikQtsGenerator.pro
 trikFSharpGenerator.file = $$PWD/trik/trikFSharpGenerator/trikFSharpGenerator.pro
 trikRuntimeUploaderPlugin.file = $$PWD/trik/trikRuntimeUploaderPlugin/trikRuntimeUploaderPlugin.pro
@@ -18,8 +21,10 @@ nxtGeneratorBase.file = $$PWD/nxt/nxtGeneratorBase/nxtGeneratorBase.pro
 nxtOsekCGenerator.file = $$PWD/nxt/nxtOsekCGenerator/nxtOsekCGenerator.pro
 nxtRussianCGenerator.file = $$PWD/nxt/nxtRussianCGenerator/nxtRussianCGenerator.pro
 
+
 trikGeneratorBase.depends = generatorBase
 trikQtsGenerator.depends = trikGeneratorBase
+trikRuCGenerator.depends = trikGeneratorBase
 trikFSharpGenerator.depends = trikGeneratorBase
 trikRuntimeUploaderPlugin.depends = trikGeneratorBase
 nxtGeneratorBase.depends = generatorBase

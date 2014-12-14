@@ -206,7 +206,8 @@ void ActionsManager::initKitPluginActions()
 		for (generatorBase::GeneratorKitPluginInterface * const generator : mKitPluginManager.generatorsById(kitId)) {
 			// generator->actions() must be called once so storing it into the field.
 			for (qReal::ActionInfo const &action : generator->actions()) {
-				mGeneratorActionsInfo.insertMulti(kitId, action);
+                qDebug() << action.action()->text() << "\n";
+                mGeneratorActionsInfo.insertMulti(kitId, action);
 			}
 
 			mPluginHotKeyActionInfos << generator->hotKeyActions();

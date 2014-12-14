@@ -146,9 +146,6 @@
         <file>templates/engines/nullifyEncoder.t</file>
         <file>templates/messages/waitForMessage.t</file>
         <file>templates/messages/sendMessage.t</file>
-        <file>templates/luaPrinting/addition.t</file>
-        <file>templates/luaPrinting/argumentsSeparator.t</file>
-        <file>templates/luaPrinting/assignment.t</file>
         <file>templates/luaPrinting/bitwiseAnd.t</file>
         <file>templates/luaPrinting/bitwiseLeftShift.t</file>
         <file>templates/luaPrinting/bitwiseNegation.t</file>

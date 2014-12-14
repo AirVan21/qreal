@@ -96,12 +96,12 @@ QString TrikQtsGeneratorPlugin::defaultFilePath(QString const &projectName) cons
 
 text::LanguageInfo TrikQtsGeneratorPlugin::language() const
 {
-	return qReal::text::Languages::qtScript({ "brick" });
+    return qReal::text::Languages::qtScript({ "brick" });
 }
 
 QString TrikQtsGeneratorPlugin::generatorName() const
 {
-	return "trikQts";
+    return "trikQts";
 }
 
 bool TrikQtsGeneratorPlugin::uploadProgram()

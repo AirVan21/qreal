@@ -1,1 +1,1 @@
-Math.acos(@@ARGUMENT@@)
+асин(квкор(1 - @@ARGUMENT@@ * @@ARGUMENT@@))

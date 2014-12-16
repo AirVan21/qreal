@@ -1,1 +1,1 @@
-brick.colorSensor().read(2, 2)[1]
+//brick.colorSensor().read(2, 2)[1]

@@ -1,1 +1,1 @@
-Math.random() * @@ARGUMENT@@
+42

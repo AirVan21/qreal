@@ -1,3 +1,3 @@
-while (!(brick.sensor(@@PORT@@).read() @@SIGN@@ @@PERCENTS@@)) {
-	brick.wait(10);
+пока (!(аналогдатчик(@@PORT@@) @@SIGN@@ @@PERCENTS@@)) {
+	спать(1);
 }

@@ -1,1 +1,1 @@
-Math.pow(@@LEFT@@, @@RIGHT@@)
+эксп(лог(@@LEFT@@) * @@RIGHT@@)

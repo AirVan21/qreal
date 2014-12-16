@@ -1,3 +1,3 @@
-while (!(brick.sensor(@@PORT@@).read() @@SIGN@@ @@DISTANCE@@)) {
-	brick.wait(10);
+пока (!(аналогдатчик(@@PORT@@) @@SIGN@@ @@DISTANCE@@)) {
+	спать(1);
 }

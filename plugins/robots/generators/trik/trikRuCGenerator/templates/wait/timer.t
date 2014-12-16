@@ -1,1 +1,1 @@
-brick.wait(@@DELAY@@);
+спать((@@DELAY@@) / 1000);

@@ -1,1 +1,1 @@
-brick.accelerometer().read()[2]
+//brick.accelerometer().read()[2]

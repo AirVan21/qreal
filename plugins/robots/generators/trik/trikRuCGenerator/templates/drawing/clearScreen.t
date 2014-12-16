@@ -1,1 +1,1 @@
-brick.display().clear();
+//brick.display().clear();

@@ -1,1 +1,1 @@
-Math.asin(@@ARGUMENT@@)
+асин(@@ARGUMENT@@)

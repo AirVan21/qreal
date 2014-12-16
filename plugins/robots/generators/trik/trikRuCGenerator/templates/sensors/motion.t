@@ -1,1 +1,1 @@
-brick.sensor(F1).read()
+цифрдатчик(3)

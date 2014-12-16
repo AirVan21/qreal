@@ -1,1 +1,1 @@
-brick.mailbox().send(@@HULL_NUMBER@@, @@MESSAGE@@);
+//brick.mailbox().send(@@HULL_NUMBER@@, @@MESSAGE@@);

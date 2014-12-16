@@ -1,1 +1,1 @@
-(Date.now() - __interpretation_started_timestamp__)
+//(Date.now() - __interpretation_started_timestamp__)

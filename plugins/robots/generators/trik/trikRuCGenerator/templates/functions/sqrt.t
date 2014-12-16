@@ -1,1 +1,1 @@
-Math.sqrt(@@ARGUMENT@@)
+квкор(@@ARGUMENT@@)

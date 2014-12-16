@@ -1,1 +1,1 @@
-brick.objectSensor().init(true);
+//brick.objectSensor().init(true);

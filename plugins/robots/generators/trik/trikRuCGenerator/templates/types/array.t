@@ -1,1 +1,1 @@
-var
+@@ELEMENT_TYPE@@ *

@@ -1,1 +1,1 @@
-brick.sensor(@@PORT@@).read()
+аналогдатчик(@@PORT@@)

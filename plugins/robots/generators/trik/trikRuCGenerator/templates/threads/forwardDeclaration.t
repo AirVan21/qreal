@@ -1,1 +1,1 @@
-var TASK_@@NAME@@;
+//var TASK_@@NAME@@;
